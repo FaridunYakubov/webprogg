@@ -1,0 +1,260 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta charset=utf-8" />
+  <meta http-equiv="cache-control" content="no-cache" />
+  <link rel="stylesheet" type="text/css" media="screen,projection,print" href="./css/style.css" />
+  <link rel="javascript" type="text/javascript" href="./js/menu.js" />
+  <link rel="icon" type="image/x-icon" href="./img/favicon.ico" />
+  <title>WebProg</title>
+</head>
+<body>
+<div class="page-container">
+    <div class="header">
+      <div class="header-top">
+        <a class="sitelogo" href="#" title="Go to Start page"></a>
+        <div class="sitename">
+          <h1><a href="index.php" title="Go to Start page">WebProg&bull;</a></h1>
+          <h2>Лучший сайт для программирование</h2>
+        </div>		           
+      </div>
+      <div class="header-middle">    
+	  
+      </div>
+      <div class="header-bottom">
+        <div class="nav2">
+          <ul>
+            <li><a href="index.php">PHP</a></li>
+          </ul>
+		  <ul>
+            <li><a href="index.php">HTML5/CSS3</a></li>
+          </ul>
+          <ul>
+            <li><a href="#">Bootstrap</a>
+            </li>
+          </ul>        
+          <ul>
+            <li><a href="#">JavaScript</a>
+            </li>
+          </ul> 
+		  <ul>
+            <li><a href="#">JQuery</a>
+          </li>
+          </ul>
+		  <ul>
+            <li><a href="#">Шаблоны</a>
+          </li>
+          </ul>
+        </div>
+	  </div>
+    </div>
+    <div class="main">
+      <div class="main-navigation">
+        <div class="round-border-topright"></div>
+        <h1 class="first">PHP</h1>
+
+<ul id="myUL">
+  <li><span class="caret">Глава 1. Краткое введение в РНР</span>
+    <ul class="nested">
+      <li><a href="index.php?page=1.1">Место РНР в мире Интернета</a></li>
+	  <li><a href="index.php?page=1.2">Достоинства РНР</a></li>
+	  <li><a href="index.php?page=1.3">РНР в действии</a></li>
+	  <li><a href="index.php?page=1.4">Основные правила написания программ на РНР</a></li>
+	</ul>
+    </li>
+  <li><span class="caret">Глава 2. Обработка числовых и текстовых данных</span>
+    <ul class="nested">
+      <li><a href="index.php?page=2.1">Текст</a></li>
+	  <li><a href="index.php?page=2.2">Числа</a></li>
+	  <li><a href="index.php?page=2.3">Переменные</a></li>
+    </ul>
+	</li>
+  <li><span class="caret">Глава 3. Управляющая логика для принятия решений и повторения операций</span>
+    <ul class="nested">
+      <li><a href="index.php?page=3.1">Общее представление об истинности или ложности</a></li>
+	  <li><a href="index.php?page=3.2">Принятие решений</a></li>
+	  <li><a href="index.php?page=3.3">Принятие сложных решений</a></li>
+	  <li><a href="index.php?page=3.4">Повторение операций</a></li>
+    </ul>
+	</li>
+  <li><span class="caret">Глава 4. Группирование и обработка данных в массивах</span>
+    <ul class="nested">
+      <li><a href="index.php?page=4.1">Основы организации массивов</a></li>
+	  <li><a href="index.php?page=4.2">Перебор массивов</a></li>
+	  <li><a href="index.php?page=4.3">Модификация массивов</a></li>
+	  <li><a href="index.php?page=4.4">Сортировка массивов</a></li>
+	  <li><a href="index.php?page=4.5">Применение многомерных массивов</a></li>
+    </ul>
+	</li>
+  <li><span class="caret">Глава 5. Группирование логики в функциям и файлам</span>
+    <ul class="nested">
+      <li><a href="index.php?page=5.1">Объявление и вызов функций</a></li>
+	  <li><a href="index.php?page=5.2">Передача аргументов функциям</a></li>
+	  <li><a href="index.php?page=5.3">Возврат значений из функций</a></li>
+	  <li><a href="index.php?page=5.4">Представление об области действия переменных</a></li>
+	  <li><a href="index.php?page=5.5">Соблюдение правил относительно аргументов и возвращаемых значений</a></li>
+	  <li><a href="index.php?page=5.6">Выполнение кода из другого файла</a></li>
+    </ul>
+	</li>
+  <li><span class="caret">Глава 6. Оперирование объектами, объединяя данные и логику</span>
+    <ul class="nested">
+      <li><a href="index.php?page=6.1">Основы организации объектов</a></li>
+	  <li><a href="index.php?page=6.2">Конструкторы</a></li>
+	  <li><a href="index.php?page=6.3">Индикация ошибок с помощью исключений</a></li>
+	  <li><a href="index.php?page=6.4">Пространства имен</a></li>
+    </ul>
+	</li>
+  <li><span class="caret">Глава 7. Создание веб-форм для обмена данными с пользователями</span>
+    <ul class="nested">
+      <li><a href="index.php?page=7.1">Полезные серверные переменные</a></li>
+	  <li><a href="index.php?page=7.2">Доступ к параметрам формы</a></li>
+	  <li><a href="index.php?page=7.3">Обработка форм с помощью функций</a></li>
+	  <li><a href="index.php?page=7.4">Проверка достоверности данных</a></li>
+	  <li><a href="index.php?page=7.5">Отображение значений, устанавливаемых по умолчанию</a></li>
+	  <li><a href="index.php?page=7.6">Собирая все вместе</a></li>
+    </ul>
+	</li>
+  <li><span class="caret">Глава 8.  Хранение информации в базах данных</span>
+    <ul class="nested">
+      <li><a href="index.php?page=8.1">Организация информации в базе данных</a></li>
+	  <li><a href="index.php?page=8.2">Подключение к программе базы данных</a></li>
+	  <li><a href="index.php?page=8.3">Создание таблицы базы данных</a></li>
+	  <li><a href="index.php?page=8.4">Ввод информации в базу данных</a></li>
+	  <li><a href="index.php?page=8.5">Безопасный ввод данных из формы</a></li>
+	  <li><a href="index.php?page=8.6">Законченная форма для ввода записей в базу данных</a></li>
+	  <li><a href="index.php?page=8.7">Извлечение информации из базы данных</a></li>
+	  <li><a href="index.php?page=8.8">Изменение формата извлекаемых строк таблицы</a></li>
+	  <li><a href="index.php?page=8.9">Безопасное извлечение данных для формы</a></li>
+	  <li><a href="index.php?page=8.11">Законченная форма для извлечения записей из базы данных</a></li>
+    </ul>
+	</li>
+  <li><span class="caret">Глава 9. Манипулирование файлами</span>
+    <ul class="nested">
+      <li><a href="index.php?page=9.1">Представление о полномочиях доступа к файлам</a></li>
+	  <li><a href="index.php?page=9.2">Чтение и запись всего содержимого файлов</a></li>
+	  <li><a href="index.php?page=9.3">Манипулирование файлами формата CSV</a></li>
+	  <li><a href="index.php?page=9.4">Проверка полномочий доступа к файлам</a></li>
+	  <li><a href="index.php?page=9.5">Выявление ошибок</a></li>
+	  <li><a href="index.php?page=9.6">Санобработка предоставляемых извне путей к файлам</a></li>
+    </ul>
+	</li>
+  <li><span class="caret">Глава 10. Сохранение сведений о пользователях в cookie-файлах и сеансах</span>
+    <ul class="nested">
+      <li><a href="index.php?page=10.1">Манипулирование cookie-файлами</a></li>
+	  <li><a href="index.php?page=10.2">Активизация сеансов</a></li>
+	  <li><a href="index.php?page=10.3">Сохранение и извлечение информации</a></li>
+	  <li><a href="index.php?page=10.4">Конфигурирование сеансов</a></li>
+	  <li><a href="index.php?page=10.5">Регистрация и идентификация пользователей</a></li>
+	  <li><a href="index.php?page=10.6">Причины для размещения вызовов функций setcookie() session_start() вначале страницы</a></li>
+    </ul>
+	</li>
+  <li><span class="caret">Глава 11. Взаимодействие с другими веб-сайтами и веб-службами</span>
+    <ul class="nested">
+      <li><a href="index.php?page=11.1">Простой доступ no URL с помощью функций манипулирования файлами</a></li>
+	  <li><a href="index.php?page=11.2">Универсальный доступ по URL с помощью расширения cURL</a></li>
+	  <li><a href="index.php?page=11.3">Обслуживание запросов API</a></li>
+    </ul>
+	</li>
+  <li><span class="caret">Глава 12. Отладка кода</span>
+    <ul class="nested">
+      <li><a href="index.php?page=12.1">Управление выводом сообщений об ошибках</a></li>
+	  <li><a href="index.php?page=12.2">Устранение синтаксических ошибок</a></li>
+	  <li><a href="index.php?page=12.3">Проверка данных в программе</a></li>
+    </ul>
+	</li>
+  <li><span class="caret">Глава 13. Тестирование: проверка правильности работы программы</span>
+    <ul class="nested">
+      <li><a href="index.php?page=13.1">Установка PHPUnit</a></li>
+	  <li><a href="index.php?page=13.2">Написание тестов</a></li>
+	  <li><a href="index.php?page=13.3">Изолирование тестируемого кода</a></li>
+	  <li><a href="index.php?page=13.4">Разработка посредством тестирования</a></li>
+	  <li><a href="index.php?page=13.5">Дополнительные сведения о тестировании</a></li>
+    </ul>
+	</li>
+  <li><span class="caret">Глава 14. Надлежащие нормы практики в программотехнике</span>
+    <ul class="nested">
+      <li><a href="index.php?page=14.1">Контроль версий исходного кода</a></li>
+	  <li><a href="index.php?page=14.2">Отслеживание ошибок</a></li>
+	  <li><a href="index.php?page=14.3">Среды и разработка</a></li>
+	  <li><a href="index.php?page=14.4">Масштабирование в перспективе</a></li>
+    </ul>
+	</li>
+  <li><span class="caret">Глава 15. Манипулирование датами и временем</span>
+    <ul class="nested">
+      <li><a href="index.php?page=15.1">Отображение даты или времени</a></li>
+	  <li><a href="index.php?page=15.2">Синтаксический анализ даты и времени</a></li>
+	  <li><a href="index.php?page=15.3">Расчет даты и времени</a></li>
+	  <li><a href="index.php?page=15.4">Манипулирование часовыми поясами</a></li>
+    </ul>
+	</li>
+  <li><span class="caret">Глава 16. Управление пакетами</span>
+    <ul class="nested">
+      <li><a href="index.php?page=16.1">Установка системы Composer </a></li>
+	  <li><a href="index.php?page=16.2">Ввод пакета в программу на РНР</a></li>
+	  <li><a href="index.php?page=16.3">Поиск пакетов</a></li>
+	  <li><a href="index.php?page=16.4">Дополнительные сведения о системе Composer</a></li>
+    </ul>
+	</li>
+  <li><span class="caret">Глава 17. Отправка сообщений по электронной почте</span>
+    <ul class="nested">
+      <li><a href="index.php?page=17.1">Библиотека Swift Mailer</a></li>
+    </ul>
+	</li>
+  <li><span class="caret">Глава 18. Каркасы</span>
+    <ul class="nested">
+      <li><a href="index.php?page=18.1">Laravel</a></li>
+      <li><a href="index.php?page=18.2">Symfony</a></li>
+	  <li><a href="index.php?page=18.3">Zend Framework</a></li>
+    </ul>
+	</li>
+  <li><span class="caret">Глава 19. Применение РНР в режиме командной строки</span>
+    <ul class="nested">
+      <li><a href="index.php?page=19.1">Написание консольных программ на РНР</a></li>
+	  <li><a href="index.php?page=19.2">Применение веб-сервера, встроенного в РНР</a></li>
+	  <li><a href="index.php?page=19.3">Выполнение цикла РНР REPL</a></li>
+    </ul>
+	</li>
+  <li><span class="caret">Глава 20. Интернационализация и локализация</span>
+    <ul class="nested">
+      <li><a href="index.php?page=20.1">Манипулирование текстом</a></li>
+	  <li><a href="index.php?page=20.2">Сортировка и сравнение</a></li>
+	  <li><a href="index.php?page=20.3">Локализация выводимых результатов</a></li>
+    </ul>
+	</li>
+<script>
+var toggler = document.getElementsByClassName("caret");
+var i;
+
+for (i = 0; i < toggler.length; i++) {
+	toggler[i].addEventListener("click", function() {
+    this.parentElement.querySelector(".nested").classList.toggle("active");
+    this.classList.toggle("caret-down");
+  });
+}
+</script>
+	
+		</div>
+      <div class="main-content">
+            <?php
+			include("include.php");
+			?>
+      </div>
+      <div class="main-subcontent">
+        <div class="subcontent-unit-border">
+        </div>
+      </div>
+    </div>
+      
+    <!-- C. FOOTER AREA -->      
+
+    <div class="footer">
+      <p>Copyright &copy; 2020 Your Company | All Rights Reserved</p>
+      <p class="credits">Original design by <a href="http://www.1-2-3-4.info" title="Designer Homepage">G. Wolfgang</a> | Adapted by <a href="#" title="Adaptor Homepage">Faridun</a> | Powered by <a href="#" title="Content Management System">Your CMS</a> | <a href="http://validator.w3.org/check?uri=referer" title="Validate XHTML code">W3C XHTML 1.0</a> | <a href="http://jigsaw.w3.org/css-validator/" title="Validate CSS code">W3C CSS 2.0</a></p>
+    </div>      
+  </div> 
+  
+</body>
+</html>
+
+
+

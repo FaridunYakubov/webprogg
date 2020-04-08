@@ -1,0 +1,273 @@
+<?php
+if(isset($_GET["page"])){
+	$page = $_GET["page"];
+if($page == "1.1"){
+	include("learn_php/1.1.php");
+}
+elseif($page == "1.2"){
+	include("learn_php/1.2.php");
+}
+elseif($page == "1.3"){
+	include("learn_php/1.3.php");
+}
+elseif($page == "1.4"){
+	include("learn_php/1.4.php");
+}
+elseif($page == "2.1"){
+	include("learn_php/2.1.php");
+}
+elseif($page == "2.2"){
+	include("learn_php/2.2.php");
+}
+elseif($page == "2.3"){
+	include("learn_php/2.3.php");
+}
+elseif($page == "3.1"){
+	include("learn_php/3.1.php");
+}
+elseif($page == "3.2"){
+	include("learn_php/3.2.php");
+}
+elseif($page == "3.3"){
+	include("learn_php/3.3.php");
+}
+elseif($page == "3.4"){
+	include("learn_php/3.4.php");
+}
+elseif($page == "4.1"){
+	include("learn_php/4.1.php");
+}
+elseif($page == "4.2"){
+	include("learn_php/4.2.php");
+}
+elseif($page == "4.3"){
+	include("learn_php/4.3.php");
+}
+elseif($page == "4.4"){
+	include("learn_php/4.4.php");
+}
+elseif($page == "4.5"){
+	include("learn_php/4.5.php");
+}
+elseif($page == "5.1"){
+	include("learn_php/5.1.php");
+}
+elseif($page == "5.2"){
+	include("learn_php/5.2.php");
+}
+elseif($page == "5.3"){
+	include("learn_php/5.3.php");
+}
+elseif($page == "5.4"){
+	include("learn_php/5.4.php");
+}
+elseif($page == "5.5"){
+	include("learn_php/5.5.php");
+}
+elseif($page == "5.6"){
+	include("learn_php/5.6.php");
+}
+elseif($page == "6.1"){
+	include("learn_php/6.1.php");
+}
+elseif($page == "6.2"){
+	include("learn_php/6.2.php");
+}
+elseif($page == "6.3"){
+	include("learn_php/6.3.php");
+}
+elseif($page == "6.4"){
+	include("learn_php/6.4.php");
+}
+elseif($page == "7.1"){
+	include("learn_php/7.1.php");
+}
+elseif($page == "7.2"){
+	include("learn_php/7.2.php");
+}
+elseif($page == "7.3"){
+	include("learn_php/7.3.php");
+}
+elseif($page == "7.4"){
+	include("learn_php/7.4.php");
+}
+elseif($page == "7.5"){
+	include("learn_php/7.5.php");
+}
+elseif($page == "7.6"){
+	include("learn_php/7.6.php");
+}
+elseif($page == "7.7"){
+	include("learn_php/7.7.php");
+}
+elseif($page == "8.1"){
+	include("learn_php/8.1.php");
+}
+elseif($page == "8.2"){
+	include("learn_php/8.2.php");
+}
+elseif($page == "8.3"){
+	include("learn_php/8.3.php");
+}
+elseif($page == "8.4"){
+	include("learn_php/8.4.php");
+}
+elseif($page == "8.5"){
+	include("learn_php/8.5.php");
+}
+elseif($page == "8.6"){
+	include("learn_php/8.6.php");
+}
+elseif($page == "8.7"){
+	include("learn_php/8.7.php");
+}
+elseif($page == "8.8"){
+	include("learn_php/8.8.php");
+}
+elseif($page == "8.9"){
+	include("learn_php/8.9.php");
+}
+elseif($page == "8.11"){
+	include("learn_php/8.11.php");
+}
+elseif($page == "8.12"){
+	include("learn_php/8.12.php");
+}
+elseif($page == "9.1"){
+	include("learn_php/9.1.php");
+}
+elseif($page == "9.2"){
+	include("learn_php/9.2.php");
+}
+elseif($page == "9.3"){
+	include("learn_php/9.3.php");
+}
+elseif($page == "9.4"){
+	include("learn_php/9.4.php");
+}
+elseif($page == "9.5"){
+	include("learn_php/9.5.php");
+}
+elseif($page == "9.6"){
+	include("learn_php/9.6.php");
+}
+elseif($page == "10.1"){
+	include("learn_php/10.1.php");
+}
+elseif($page == "10.2"){
+	include("learn_php/10.2.php");
+}
+elseif($page == "10.3"){
+	include("learn_php/10.3.php");
+}
+elseif($page == "10.4"){
+	include("learn_php/10.4.php");
+}
+elseif($page == "10.5"){
+	include("learn_php/10.5.php");
+}
+elseif($page == "10.6"){
+	include("learn_php/10.6.php");
+}
+elseif($page == "11.1"){
+	include("learn_php/11.1.php");
+}
+elseif($page == "11.2"){
+	include("learn_php/11.2.php");
+}
+elseif($page == "11.3"){
+	include("learn_php/11.3.php");
+}
+elseif($page == "12.1"){
+	include("learn_php/12.1.php");
+}
+elseif($page == "12.2"){
+	include("learn_php/12.2.php");
+}
+elseif($page == "12.3"){
+	include("learn_php/12.3.php");
+}
+elseif($page == "13.1"){
+	include("learn_php/13.1.php");
+}
+elseif($page == "13.2"){
+	include("learn_php/13.2.php");
+}
+elseif($page == "13.3"){
+	include("learn_php/13.3.php");
+}
+elseif($page == "13.4"){
+	include("learn_php/13.4.php");
+}
+elseif($page == "13.5"){
+	include("learn_php/13.5.php");
+}
+elseif($page == "14.1"){
+	include("learn_php/14.1.php");
+}
+elseif($page == "14.2"){
+	include("learn_php/14.2.php");
+}
+elseif($page == "14.3"){
+	include("learn_php/14.3.php");
+}
+elseif($page == "14.4"){
+	include("learn_php/14.4.php");
+}
+elseif($page == "15.1"){
+	include("learn_php/15.1.php");
+}
+elseif($page == "15.2"){
+	include("learn_php/15.2.php");
+}
+elseif($page == "15.3"){
+	include("learn_php/15.3.php");
+}
+elseif($page == "15.4"){
+	include("learn_php/15.4.php");
+}
+elseif($page == "16.1"){
+	include("learn_php/16.1.php");
+}
+elseif($page == "16.2"){
+	include("learn_php/16.2.php");
+}
+elseif($page == "16.3"){
+	include("learn_php/16.3.php");
+}
+elseif($page == "16.4"){
+	include("learn_php/16.4.php");
+}
+elseif($page == "17.1"){
+	include("learn_php/17.1.php");
+}
+elseif($page == "18.1"){
+	include("learn_php/18.1.php");
+}
+elseif($page == "18.2"){
+	include("learn_php/18.2.php");
+}
+elseif($page == "18.3"){
+	include("learn_php/18.3.php");
+}
+elseif($page == "19.1"){
+	include("learn_php/19.1.php");
+}
+elseif($page == "19.2"){
+	include("learn_php/19.2.php");
+}
+elseif($page == "19.3"){
+	include("learn_php/19.3.php");
+}
+elseif($page == "20.1"){
+	include("learn_php/20.1.php");
+}
+elseif($page == "20.2"){
+	include("learn_php/20.2.php");
+}
+elseif($page == "20.3"){
+	include("learn_php/20.3.php");
+}
+
+}
+?>

@@ -1,0 +1,193 @@
+/* NON-HEADER */
+*{padding:0; margin:0;}
+ body {font-size:65.5%; background-color:rgb(255,255,255); font-family:verdana,arial,sans-serif;} /*Font-size: 1.0em = 10px when browser default size is 16px*/
+.page-container {width:1000px; margin:0px auto; margin-top:10px; margin-bottom:10px; border:solid 1px rgb(150,150,150); font-size:1.0em;}
+.main {clear:both; width:1000px; padding-bottom:30px; background:transparent url(../img/bg_main_withnav.jpg) top left repeat-y;}
+.main-navigation {display:inline /*Fix IE floating margin bug*/; float:left; width:200px; overflow:visible !important /*Firefox*/; overflow:hidden /*IE6*/;}
+.main-content {display:inline; /*Fix IE floating margin bug*/; float:left; width:760px; margin:20px 0 0 20px; overflow:visible !important /*Firefox*/; overflow:hidden /*IE6*/;}
+.main-subcontent {display:inline /*Fix IE floating margin bug*/; float:right; width:185px; margin:0 15px 0 0; overflow:visible !important /*Firefox*/; overflow:hidden /*IE6*/;}
+.footer {clear:both; width:1000px; height:3.7em; padding:1.1em 0 0; background:rgb(225,225,225) url(../img/bg_foot.jpg) no-repeat; font-size:1.0em; overflow:visible !important /*Firefox*/; overflow:hidden /*IE6*/;}
+
+/* --- For alternative headers START PASTE here --- */
+
+/* HEADER */
+.header {width:1000px; font-family:"trebuchet ms",arial,sans-serif;}
+.header-top {width:1000px; height:80px; background:rgb(240,240,240) url(../img/bg_head_top.jpg); overflow:visible !important /*Firefox*/; overflow:hidden /*IE6*/;}
+.header-middle {width:1000px; height:250px; background:rgb(230,230,230) url(../img/header.jpg); overflow:visible !important /*Firefox*/; overflow:hidden /*IE6*/;}
+.header-bottom {width:1000px; height:40px; background:rgb(255,255,255) url(../img/bg_head_breadcrumbs.jpg) repeat-y;}
+
+/********************/
+/*  HEADER SECTION  */
+/********************/
+.sitelogo {width:60px; height:40px; position:absolute; z-index:1; margin:22px 0 0 20px; background:url(../img/bg_head_top_logo.jpg); }
+.sitename {width:300px; height:45px; position:absolute; z-index:1; margin:20px 0 0 90px; overflow:visible !important /*Firefox*/; overflow:hidden /*IE6*/;}
+.sitename h1 {font-size:240%;}
+.sitename h2 {margin:-4px 0 0 0; color:rgb(125,125,125); font-size:120%;}
+.sitename a {text-decoration:none; color:rgb(125,125,125);}
+.sitename a:hover {text-decoration:none; color:rgb(50,50,50);}
+
+.nav2 {float:left; width:1000px; border:none; background:rgb(220,220,220) url(../img/bg_head_bottom_nav.jpg) repeat-x; color:rgb(75,75,75); font-size:1.0em; font-size:130%;} /*Color navigation bar normal mode*/
+.nav2 ul {list-style-type:none;}
+.nav2 ul li {float:left; position:relative; z-index:1000; border-right:solid 1px rgb(175,175,175);}
+.nav2 ul li ul {display:none; border:none;}
+.nav2 ul li ul {margin-left:-30px; padding:0 30px 30px 30px; background:url(../img/bg_head_bottom_nav_hover.gif) top center;} /*Sticky hover zones*/
+.nav2 ul li a {float:left; display:block; height:3.1em; line-height:3.1em; padding:0 16px 0 16px; text-decoration:none; font-weight:bold; color: rgb(100,100,100);}
+.nav2 ul li:hover {width:auto;}
+.nav2 table {position:absolute; z-index:999; top:0; left:0; border-collapse:collapse;}
+
+/*Non-IE6*/
+.nav2 ul li:hover a {background-color:rgb(210,210,210); text-decoration:none;} /*Color main cells hovering mode*/
+.nav2 ul li:hover ul {display:block; position:absolute; z-index:998; top:3.0em; margin-top:0.1em; left:0;}
+.nav2 ul li:hover ul li ul {display: none;}
+.nav2 ul li:hover ul li a {display:block; width:10em; height:auto; line-height:1.3em; margin-left:-1px; padding:4px 16px 4px 16px; border-left:solid 1px rgb(175,175,175); border-bottom: solid 1px rgb(175,175,175); background-color:rgb(237,237,237); font-weight:normal; color:rgb(50,50,50);} /*Color subcells normal mode*/
+.nav2 ul li:hover ul li a:hover {background-color:rgb(210,210,210); text-decoration:none;} /*Color subcells hovering mode*/
+
+/*IE6*/
+.nav2 ul li a:hover {background-color:#06A5E6; color:white; text-decoration:none;} /*Color main cells hovering mode*/
+.nav2 ul li a:hover ul {display:block; position:absolute;z-index:997; top:3.1em; t\op:3.0em; left:0; marg\in-top:0.1em;}
+.nav2 ul li a:hover ul li a {display:block; w\idth:10em; height:1px; line-height:1.3em; padding:4px 16px 4px 16px; border-left:solid 1px rgb(175,175,175); border-bottom: solid 1px rgb(175,175,175); background-color:rgb(237,237,237); font-weight:normal; color:rgb(50,50,50);} /*Color subcells normal mode*/
+.nav2 ul li a:hover ul li a ul {visibility:hidden; height:0px; width:0px; position:absolute; z-index: 997;}
+.nav2 ul li a:hover ul li a:hover {background-color:rgb(210,210,210); text-decoration:none;} /*Color subcells hovering mode*/
+
+/********************/
+/*  FOOTER SECTION  */
+/********************/
+.footer p {line-height:1.3em; text-align:center; color:rgb(125,125,125); font-weight:bold; font-size:110%;}
+.footer p.credits {font-weight:normal;}
+.footer a {text-decoration:underline; color:rgb(125,125,125);}
+.footer a:hover {text-decoration:none; color:rgb(0,0,0);}
+.footer a:visited {color:rgb(0,0,0);}
+
+/******************/
+/*  CLEAR FLOATS  */
+/******************/
+.page-container:after, .header:after, .header-breadcrumbs:after, .main:after, .main-navigation:after, .main-content:after, .main-content div:after, .main-subcontent:after {content:"."; display:block; height:0; clear:both; visibility:hidden;}
+.column1-unit:after, .column2-unit-left:after, .column2-unit-right:after, .column3-unit-left:after, .column3-unit-middle:after, .column3-unit-right:after {content:"."; display:block; height:0; clear:both; visibility:hidden;}
+.subcontent-unit-border:after, .subcontent-unit-noborder:after {content:"."; display:block; height:0; clear:both; visibility:hidden;}
+.footer:after, p:after {content:"."; display:block; height:0; clear:both; visibility:hidden;}
+.clear-contentunit {clear:both; width:440px; height:0.1em; border:none; background:rgb(210,210,210); color:rgb(210,210,210);}
+
+/********************************/
+/*  PRINTING and MISCELLANEOUS  */
+/********************************/
+@media print {.header-top {width:900px; height:80px; background:rgb(240,240,240); overflow:visible !important /*Firefox*/; overflow:hidden /*IE6*/;}}
+@media print {.header-breadcrumbs {width:900px; background:transparent;}}
+@media print {.nav2 {float:left; width:900px; border:none; background:rgb(240,240,240); color:rgb(75,75,75); font-size:1.0em; font-size:130%;}} /*Color navigation bar normal mode*/
+@media print {.main {clear:both; width:900px; padding-bottom:30px; background:transparent;}}
+@media print {.main-navigation {display:inline /*Fix IE floating margin bug*/; float:left; width:199px; border-right:solid 1px rgb(200,200,200); border-bottom:solid 1px rgb(200,200,200); background-color:rgb(240,240,240); overflow:visible !important /*Firefox*/; overflow:hidden /*IE*/;}}
+@media print {.footer {clear:both; width:900px; height:3.7em; padding:1.1em 0 0; background:rgb(240,240,240); font-size:1.0em; overflow:visible !important /*Firefox*/; overflow:hidden /*IE6*/;}}
+html {filter: expression(document.execCommand("BackgroundImageCache", false, true));} /*IE proprietary flicker hack for background images. Not validating, but OK*/
+
+.main-navigation h1.first {text-align:center;align: clear:both; margin:0px; padding:4px 20px 3px 20px; background-color:#06A5E6; font-family:"trebuchet ms",arial,sans-serif; color:rgb(255,255,255); font-weight:bold; font-size:150%;}
+.main-navigation h1 {clear:both; margin:30px 0 20px 0; padding:4px 20px 3px 20px; background:rgb(190,190,190); font-family:"trebuchet ms",arial,sans-serif; color:rgb(255,255,255); font-weight:bold; font-size:150%;}
+.main-navigation h2 {clear:both; margin:20px 10px 10px 20px; font-family:"trebuchet ms",arial,sans-serif; color:rgb(100,100,100); font-weight:bold; font-size:150%;}
+.main-navigation h3 {clear:both; margin:10px 10px 5px 20px; color:rgb(80,80,80); font-weight:bold; font-size:110%;} /* Note: h2 not existent, to make identical to formats for main-navigation for easier exchange */
+.main-navigation p {clear:both; margin:0 10px 10px 20px; color:rgb(80,80,80); line-height:1.3em; font-size:110%;}
+.main-navigation p.center {text-align:center;}
+.main-navigation p.right {text-align:right;}
+
+.main-navigation ul {list-style:none; margin:0.5em 10px 1.0em 20px;}
+.main-navigation ul li {margin:5px 0 0.2em 2px; padding:0px 0px 0 11px; background:url(../img/bg_bullet_full_1.gif) no-repeat 0 0.4em; line-height:1.2em; font-size:110%;}
+.main-navigation ol {margin:0.5em 10px 1.0em 40px !important /*Non-IE6*/; margin:0.5em 10px 1.0em 45px /*IE6*/;}
+.main-navigation ol li {list-style-position:outside; margin:0 0 0.4em 0; font-size:110%;}
+
+/* MAIN CONTENT */
+.main-content h1.pagetitle {margin:0 0 0.4em 0; padding:0 0 2px 0; border-bottom:solid 7px rgb(225,225,225); font-family:"trebuchet ms",arial,sans-serif; color:rgb(100,100,100); font-weight:bold; font-size:220%;}
+.main-content h1.block {clear:both; margin:1.0em 0 0em 0; padding:2px 0 2px 2px; background:rgb(190,190,190); font-family:"trebuchet ms",arial,sans-serif; color:rgb(255,255,255); font-weight:bold; font-size:220%;}
+.main-content h1 {clear:both; margin:1.0em 0 0.5em 0; font-family:"trebuchet ms",arial,sans-serif; color:rgb(80,80,80); font-weight:normal; font-size:210%;}
+.main-content h2 {clear:both; margin:1.0em 0 0.5em 0; font-family:"trebuchet ms",arial,sans-serif; color:rgb(80,80,80); font-weight:normal; font-size:170%;}
+.main-content h3 {clear:both; margin:-1.0em 0 0.5em 0; font-family:"trebuchet ms",arial,sans-serif; color:rgb(125,125,125); font-weight:normal; font-size:130%;}
+.main-content h1.side {clear:none;}
+.main-content h2.side {clear:none;}
+.main-content h3.side {clear:none;}
+
+.main-content h4 {margin:1.5em 0 1.0em 0; color:rgb(80,80,80); font-family:"trebuchet ms",arial,sans-serif; font-weight:normal; font-size:170%;}
+.main-content h5 {margin:1.5em 0 1.0em 0; color:rgb(80,80,80); font-family:"trebuchet ms",arial,sans-serif; font-size:140%;}
+.main-content h6 {margin:1.5em 0 1.0em 0; color:rgb(80,80,80); font-family:"trebuchet ms",verdana,arial,sans-serif; font-weight:normal; font-size:140%;}
+.main-content p {margin:0 0 1.0em 0; line-height:1.5em; font-size:120%;}
+.main-content p.center {text-align:center;}
+.main-content p.right {text-align:right;}
+.main-content p.details {clear:both; margin:-0.25em 0 1.0em 0; line-height:1.0em; font-size:110%;}
+.main-content blockquote {clear:both; margin:0 30px 0.6em 30px; font-size:90%;}
+
+.main-content ul {list-style:none; margin:0.5em 0 1.0em 0;}
+.main-content ul li {margin:0 0 0.2em 2px; padding:0 0 0 12px; background:url(../img/bg_bullet_full_1.gif) no-repeat 0 0.5em; line-height:1.4em; font-size:120%;}
+.main-content ol {margin:0.5em 0 1.0em 20px !important /*Non-IE6*/; margin:0.5em 0 1.0em 25px /*IE6*/;}
+.main-content ol li {list-style-position:outside; margin:0 0 0.2em 0; line-height:1.4em; font-size:120%;}
+
+
+/* MAIN SUBCONTENT */
+.main-subcontent h1 {clear:both; margin:0 0 10px 0; padding:4px 10px 3px 10px; background-color:rgb(190,190,190); font-family:"trebuchet ms",arial,sans-serif; color:rgb(255,255,255); font-weight:bold; font-size:140%;}
+.main-subcontent h1.green {clear:both; margin:0 0 5px 0; padding:4px 10px 3px 10px; background-color:rgb(160,214,81); font-family:"trebuchet ms",verdana,arial,sans-serif; color:rgb(255,255,255); font-weight:bold; font-size:140%;}
+.main-subcontent h1.blue {clear:both; margin:0 0 5px 0; padding:4px 10px 3px 10px; background-color:rgb(137,170,214); font-family:"trebuchet ms",verdana,arial,sans-serif; color:rgb(255,255,255); font-weight:bold; font-size:140%;}
+.main-subcontent h1.orange {clear:both; margin:0 0 5px 0; padding:4px 10px 3px 10px; background-color:rgb(232,177,13); font-family:"trebuchet ms",verdana,arial,sans-serif; color:rgb(255,255,255); font-weight:bold; font-size:140%;}
+ /* Note: h2 non-existent, to make HTML-code interchangeable between 'main-navigation' and 'main-subcontent' */
+.main-subcontent h3 {clear:both; margin:1.0em 10px 0.5em 10px; color:rgb(80,80,80); font-weight:bold; font-size:110%;}
+.main-subcontent p {clear:both; margin:0 10px 1.0em 10px; color:rgb(80,80,80); line-height:1.3em; font-size:110%;}
+.main-subcontent p.center {text-align:center;}
+.main-subcontent p.right {text-align:right;}
+
+.main-subcontent ul {list-style:none; margin:0.5em 10px 1.0em 10px;}
+.main-subcontent ul li {margin:5px 0 0.2em 2px; padding:0 0 0 11px; background:url(../img/bg_bullet_full_1.gif) no-repeat 0 0.4em; line-height:1.2em; font-size:110%;}
+.main-subcontent ol {margin:0.5em 10px 1.0em 30px !important /*Non-IE6*/; margin:0.5em 10px 1.0em 35px /*IE6*/;}
+.main-subcontent ol li {list-style-position:outside; margin:0 0 0.4em 0; font-size:110%;}
+
+/********************/
+/*  COMMON CLASSES  */
+/********************/
+.main img {clear:both; margin:3px 10px 7px 0; padding:10px; padding-left:100px; padding-right:100px;}
+
+.main a {color:rgb(70,122,167); font-weight:bold; text-decoration:none;}
+.main-content h1 a {color:rgb(70,122,167); font-weight:normal; text-decoration:none;}
+.main a:hover {color:rgb(42,90,138); text-decoration:underline;}
+.main a:visited {color:rgb(42,90,138);}
+
+.main a img {border:solid 1px rgb(150,150,150);}
+.main a:hover img {border:solid 1px rgb(220,220,220);}
+
+
+ul, #myUL {
+  list-style-type: none;
+}
+
+#myUL {
+  margin: 0;
+  padding: 0;
+}
+
+.caret {
+	font-size:15px;
+	font-family:Comic Sans MS;
+	line-height:25px;
+    cursor: pointer;
+    -webkit-user-select: none; /* Safari 3.1+ */
+    -moz-user-select: none; /* Firefox 2+ */
+    -ms-user-select: none; /* IE 10+ */
+    user-select: none;
+}
+.caret:hover{
+	font-size:16px;
+	color:#2A5A8A;
+}
+
+.caret::before {
+  content: "\25B6";
+  color: black;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.caret-down::before {
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Safari */'
+  transform: rotate(90deg);  
+}
+
+.nested {
+  display: none;
+  font-family:Comic Sans MS;
+}
+.active {
+  display: block;
+}
+
